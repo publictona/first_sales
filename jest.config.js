@@ -1,7 +1,6 @@
-/** @type {import("ts-jest").JestConfigWithTsJest} */
+/** @type {import('ts-jest').JestConfigWithTsJest} */
 module.exports = {
-  testEnvironment: "node",
+  preset: "ts-jest",
   testMatch: ["**/__tests__/**/*.js?(x)", "**/?(*.)+(spec|test).js?(x)"],
-  collectCoverage: true,
-  testTimeout: 120000,
+  testEnvironment: "node",
 };

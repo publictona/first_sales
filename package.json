@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon ./local_run.ts",
     "build": "tsc --project .",
-    "test": "ts-jest"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
